@@ -12,10 +12,10 @@ You want to mix the colors, so that:
 
 Your program should accept an input file as a command line argument, and print a result to standard out.  An example input file is:
 
-5
-1 M 3 G 5 G
-2 G 3 M 4 G
-5 M
+5<br />
+1 M 3 G 5 G<br />
+2 G 3 M 4 G<br />
+5 M<br />
 
 The first line specifies how many colors there are.
 
@@ -31,9 +31,9 @@ G G G G M
 
 An example of a file with no solution is:
 
-1
-1 G
-1 M
+1<br />
+1 G<br />
+1 M<br />
 
 Your program should print
 
@@ -41,21 +41,21 @@ No solution exists
 
 A slightly richer example is:
 
-5
-2 M
-5 G
-1 G
-5 G 1 G 4 M
-3 G
-5 G
-3 G 5 G 1 G
-3 G
-2 M
-5 G 1 G
-2 M
-5 G
-4 M
-5 G 4 M
+5<br />
+2 M<br />
+5 G<br />
+1 G<br />
+5 G 1 G 4 M<br />
+3 G<br />
+5 G<br />
+3 G 5 G 1 G<br />
+3 G<br />
+2 M<br />
+5 G 1 G<br />
+2 M<br />
+5 G<br />
+4 M<br />
+5 G 4 M<br />
 
 ...which should print:
 
@@ -63,9 +63,9 @@ G M G M G
 
 One more example.  The input:
 
-2
-1 G 2 M
-1 M
+2<br />
+1 G 2 M<br />
+1 M<br />
 
 ...should produce
 
