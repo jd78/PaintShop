@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PaintShop.App", "PaintShop.App\PaintShop.App.fsproj", "{252AD5CF-871B-4481-8E35-8E04317ACD27}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Shop.Test", "PaintShop.Test\Shop.Test.fsproj", "{DE021EF3-62E0-40A1-BDB8-E028B223EA60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{252AD5CF-871B-4481-8E35-8E04317ACD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252AD5CF-871B-4481-8E35-8E04317ACD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252AD5CF-871B-4481-8E35-8E04317ACD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252AD5CF-871B-4481-8E35-8E04317ACD27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE021EF3-62E0-40A1-BDB8-E028B223EA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE021EF3-62E0-40A1-BDB8-E028B223EA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE021EF3-62E0-40A1-BDB8-E028B223EA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE021EF3-62E0-40A1-BDB8-E028B223EA60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
