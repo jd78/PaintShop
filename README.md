@@ -77,13 +77,13 @@ Project structure
 
 The solution has been implemented in F#, the code is based on problem reduction and permutations.
 
-- Gilt.Shop.App
+- PaintShop.App
 	It's the main application
 
-- Gilt.Shop.Tests
+- PaintShop.Tests
 	It's the unit test projects
 
-Gilt.Shop.App
+PaintShop.App
 -------------------
 
 The entry point is Program.fs. The application will take a filepath\filename as input, the project has been configured to run in debug using the provided testFile.txt.
@@ -127,7 +127,7 @@ The steps of the algorithm are:
 	- If there is a solution that satisfy all the client, apply it.
 	- If not, the problem has no solution
 
-Gilt.Shop.Tests
+PaintShop.Tests
 ==================
 The project contains the unit tests for both Shop and DataCreator module.
 To run the test you need to install NUnit console runner and run the exec in the bin\debug folder. It's also possible to run the tests from visual studio using NUnitTestAdapter extension.
